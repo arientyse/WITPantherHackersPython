@@ -22,14 +22,20 @@ while guess != number_to_guess:
         print("That's too low! Try again!")
         guess = int(input())
         number_of_guesses += 1
+
     if guess > number_to_guess:
         print("That's way too high! Try again!")
         guess = int(input())
         number_of_guesses += 1
+
     if guess == number_to_guess:
         print("YAY! You guessed the right answer!")
         print("Number of guesses is: " +str(number_of_guesses)) #How to use a varible in a string
+
         #This will be an endless loop without an exit condition
         #Concatnate - cannot add together
+
+#Scope in programming is how you can access things
+
 
 
