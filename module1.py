@@ -39,6 +39,7 @@ while playAgain == "yes":
             playAgain = input()
         
             number_to_guess = random.randint(1.15)
+            number_of_guesses = 0
             print("Please enter a new number!")
             guess = int(input())
 
